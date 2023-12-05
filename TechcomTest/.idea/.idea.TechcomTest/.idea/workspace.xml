@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8d699e03-989a-48fd-9baf-9d41153e7efc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Configs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Configs/GameConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Configs/GameConfig.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DailyGifts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DailyGifts/DailyBonusFabric.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DailyGifts/DailyBonusFabric.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DailyGifts/DailyBonusInfoContainer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DailyGifts/DailyBonusInfoContainer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DailyGifts/DailyBonusModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DailyGifts/DailyBonusModel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DailyGifts/DailyBonusObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DailyGifts/DailyBonusObject.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DailyGifts/DailyBonusPresenter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DailyGifts/DailyBonusPresenter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DailyGifts/DailyBonusView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DailyGifts/DailyBonusView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Infrastructure/Installers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Infrastructure/Installers/GameplaySceneInstaller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Infrastructure/Installers/GameplaySceneInstaller.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenu/ICloseble.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenu/ICloseble.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenu/MenuPresenter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenu/MenuPresenter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenu/OpenButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenu/OpenButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenu/Panels.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenu/Panels.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Money.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Money/IMoneyBalanceHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Money/IMoneyBalanceHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Money/MoneyView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Money/MoneyView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Settings.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Settings/IMusicHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Settings/IMusicHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Settings/MusicHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Settings/MusicHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Settings/SettingsModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Settings/SettingsModel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Settings/SettingsPresenter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Settings/SettingsPresenter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Settings/SettingsView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Settings/SettingsView.cs.meta" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoneyCounter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoneyCounter/IMoneyBalanceHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoneyCounter/MoneyCounter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameConfig/GameConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Configs/GameConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Money/IMoneyBalanceHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Money/MoneyView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Money/MoneyCounter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/IMenuOpener.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ICloseble.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Settings/IMusicHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Settings/SettingsModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Settings/MusicHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/Menu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/MenuView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/MenuModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/Panels.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/ICloseble.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Settings/SettingsPresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/OpenButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/MenuPresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Settings/SettingsView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DailyGifts/DailyBonusInfoContainer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Infrastructure/Installers/GameplaySceneInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DailyGifts/DailyBonusFabric.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DailyGifts/DailyBonusModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DailyGifts/DailyBonusObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DailyGifts/DailyBonusPresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DailyGifts/DailyBonusView.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Z7mGdMhL20a6Mrv0y0L9ngQSzx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d699e03-989a-48fd-9baf-9d41153e7efc" name="Default Changelist" comment="" />
+      <created>1701781405720</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701781405720</updated>
+      <workItem from="1701781426552" duration="18098000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="601" y="114" key="RiderGenerateDialog" timestamp="1701799465316">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="601" y="114" key="RiderGenerateDialog/0.0.1536.824@0.0.1536.824" timestamp="1701799465316" />
+    <state x="419" y="0" width="698" height="824" key="find.popup" timestamp="1701798438818">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="419" y="0" width="698" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1701798438818" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1701790431335">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1701790431335" />
+  </component>
+</project>
