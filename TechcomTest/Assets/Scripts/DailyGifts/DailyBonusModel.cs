@@ -25,8 +25,6 @@ namespace DailyGifts
             {
                 DailyBonusObject dailyBonusObject = _dailyBonusFabric.Get(container, dailyBonusInfo, currentDay);
                 dailyBonusInfos.Add(dailyBonusObject);
-                if(currentDay == DateTime.Now.Day)
-                    dailyBonusObject.CanTake();
                 currentDay++;
             }
 

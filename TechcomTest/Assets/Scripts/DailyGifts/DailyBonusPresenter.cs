@@ -7,14 +7,21 @@ using Zenject;
 
 namespace DailyGifts
 {
-    public class DailyBonusPresenter : ICloseble, ITickable
+    public class DailyBonusPresenter : ICloseble, ITickable, IGiftDayHandler
     {
+        public event Action<int, int> OnGiftTaked;
+        
+        private const int DaysInWeek = 7;
+        private const int StartValue = 0;
+        
         private DailyBonusModel _dailyBonusModel;
         private DailyBonusView _dailyBonusView;
         private List<DailyBonusObject> _dailyBonusObjects;
         private MoneyCounter _moneyCounter;
         private Panels _panel;
         private int _lastDay;
+        private int _currentDay;
+        
 
         public DailyBonusPresenter(DailyBonusModel dailyBonusModel, DailyBonusView dailyBonusView, MoneyCounter moneyCounter)
         {
@@ -28,11 +35,19 @@ namespace DailyGifts
         public void CreateGifts(Transform container)
         {
             _dailyBonusObjects = _dailyBonusModel.CreateGifts(container);
+            _currentDay = StartValue;
+            OnGiftTaked?.Invoke(_currentDay, DaysInWeek);
 
             foreach (var dailyBonusObject in _dailyBonusObjects)
             {
                 dailyBonusObject.OnCLick += OnClick;
             }
+
+            _lastDay = DateTime.Now.Day;
+            
+            //We need here to see what gifts we already take and see what we should update but now see only first
+            
+            UpdateGifts(DateTime.Now.Day);
         }
         
         public Panels GetPanelType() => _panel;
@@ -65,6 +80,8 @@ namespace DailyGifts
             
             _moneyCounter.AddMoney(dailyBonusObject.DailyBonusInfo.Money);
             dailyBonusObject.Take();
+            _currentDay++;
+            OnGiftTaked?.Invoke(_currentDay, DaysInWeek);
         }
     }
 }

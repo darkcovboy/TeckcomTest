@@ -1,4 +1,5 @@
 ﻿using System;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using Zenject;
@@ -10,6 +11,7 @@ namespace MainMenu
     {
         [SerializeField] private Panels _panel;
         [SerializeField] private Button _button;
+        [SerializeField] private AudioSource _audioSource;
         
         private MenuPresenter _menuPresenter;
 
@@ -28,11 +30,21 @@ namespace MainMenu
         private void OnEnable()
         {
             _button.onClick.AddListener(() => _menuPresenter.Open(_panel));
+            _button.onClick.AddListener(() =>
+            {
+                if(_audioSource.enabled)
+                    _audioSource.Play();
+            });
         }
 
         private void OnDisable()
         {
             _button.onClick.RemoveListener(() => _menuPresenter.Open(_panel));
+            _button.onClick.RemoveListener(() =>
+            {
+                if(_audioSource.enabled)
+                    _audioSource.Play();
+            });
         }
     }
 }

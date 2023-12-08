@@ -1,16 +1,16 @@
-﻿using UnityEngine;
-
-namespace Settings
+﻿namespace Settings
 {
     public class SettingsModel
     {
         private bool _isSoundOn;
         private bool _isMusicOn;
         private IMusicHandler _musicHandler;
+        private SoundsHandler _soundsHandler;
 
-        public SettingsModel(IMusicHandler musicHandler)
+        public SettingsModel(IMusicHandler musicHandler, SoundsHandler soundsHandler)
         {
             _musicHandler = musicHandler;
+            _soundsHandler = soundsHandler;
         }
 
         public bool IsSoundOn
@@ -40,7 +40,7 @@ namespace Settings
 
         public void SwitchAudio(bool isOn)
         {
-            AudioListener.pause = !isOn;
+            _soundsHandler.SwitchAudio(isOn);
         }
     }
 }

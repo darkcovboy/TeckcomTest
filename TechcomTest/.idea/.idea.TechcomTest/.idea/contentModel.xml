@@ -1016,9 +1016,15 @@
         <e p="Resources" t="Include">
           <e p="BillingMode.json" t="Include" />
           <e p="Configs" t="Include">
+            <e p="DailyGift" t="Include" />
             <e p="GameConfig" t="Include" />
+            <e p="Shop" t="Include" />
+          </e>
+          <e p="Data" t="Include">
+            <e p="Data.json" t="Include" />
           </e>
           <e p="Hud" t="Include" />
+          <e p="IAPProductCatalog.json" t="Include" />
         </e>
         <e p="Scenes" t="Include" />
         <e p="Scripts" t="Include">
@@ -1032,11 +1038,18 @@
             <e p="DailyBonusObject.cs" t="Include" />
             <e p="DailyBonusPresenter.cs" t="Include" />
             <e p="DailyBonusView.cs" t="Include" />
+            <e p="IGiftDayHandler.cs" t="Include" />
+            <e p="SliderGIft.cs" t="Include" />
           </e>
           <e p="Infrastructure" t="Include">
             <e p="Installers" t="Include">
               <e p="GameplaySceneInstaller.cs" t="Include" />
             </e>
+          </e>
+          <e p="Levels" t="Include">
+            <e p="LevelButton.cs" t="Include" />
+            <e p="LevelsPresenter.cs" t="Include" />
+            <e p="LevelsView.cs" t="Include" />
           </e>
           <e p="MainMenu" t="Include">
             <e p="ICloseble.cs" t="Include" />
@@ -1049,12 +1062,42 @@
             <e p="MoneyCounter.cs" t="Include" />
             <e p="MoneyView.cs" t="Include" />
           </e>
+          <e p="PlayerData" t="Include">
+            <e p="Data.cs" t="Include" />
+            <e p="Locations.cs" t="Include" />
+            <e p="PlayerSavedData.cs" t="Include" />
+            <e p="Skins.cs" t="Include" />
+          </e>
           <e p="Settings" t="Include">
             <e p="IMusicHandler.cs" t="Include" />
             <e p="MusicHandler.cs" t="Include" />
             <e p="SettingsModel.cs" t="Include" />
             <e p="SettingsPresenter.cs" t="Include" />
             <e p="SettingsView.cs" t="Include" />
+            <e p="SoundsHandler.cs" t="Include" />
+          </e>
+          <e p="Shop" t="Include">
+            <e p="Datas" t="Include">
+              <e p="LocationData.cs" t="Include" />
+              <e p="ShopData.cs" t="Include" />
+              <e p="ShopDataContainer.cs" t="Include" />
+              <e p="ShopTicketData.cs" t="Include" />
+              <e p="SkinData.cs" t="Include" />
+            </e>
+            <e p="IAPManager.cs" t="Include" />
+            <e p="Price.cs" t="Include" />
+            <e p="ShopFactory.cs" t="Include" />
+            <e p="ShopModel.cs" t="Include" />
+            <e p="ShopObject.cs" t="Include" />
+            <e p="ShopPresenter.cs" t="Include" />
+            <e p="ShopTicketObject.cs" t="Include" />
+            <e p="ShopView.cs" t="Include" />
+          </e>
+          <e p="UnityPurchasing" t="Include">
+            <e p="generated" t="Include">
+              <e p="AppleStoreKitTestTangle.cs" t="Include" />
+              <e p="AppleTangle.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="Sprites" t="Include" />

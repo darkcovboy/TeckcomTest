@@ -1,4 +1,5 @@
 using System;
+using PlayerData;
 using Zenject;
 
 namespace Money
@@ -7,11 +8,13 @@ namespace Money
     {
         public event Action<int> OnMoneyChanged;
         
-        private int _money;  
+        private int _money;
+        private PlayerSavedData _playerSavedData;
         
-        public MoneyCounter(int startMoney)
+        public MoneyCounter(PlayerSavedData playerData)
         {
-            Money = startMoney;
+            _playerSavedData = playerData;
+            Money = playerData.Data.Money;
         }
     
         public int Money
@@ -31,6 +34,7 @@ namespace Money
                 throw  new ArgumentException(nameof(add));
 
             Money += add;
+            _playerSavedData.UpdateMoney(Money);
             OnMoneyChanged?.Invoke(Money);
         }
 
@@ -40,6 +44,7 @@ namespace Money
                 throw  new ArgumentException(nameof(moneyToRemove));
 
             Money -= moneyToRemove;
+            _playerSavedData.UpdateMoney(Money);
             OnMoneyChanged?.Invoke(Money);
         }
 

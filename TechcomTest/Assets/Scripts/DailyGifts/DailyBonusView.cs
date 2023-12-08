@@ -7,7 +7,7 @@ namespace DailyGifts
     public class DailyBonusView : MonoBehaviour
     {
         [SerializeField] private Transform _container;
-        [SerializeField] private Button _closeButton;
+        [SerializeField] private Button[] _closeButton;
         [SerializeField] private GameObject _startDay;
         [SerializeField] private GameObject _lastDay;
         
@@ -27,12 +27,18 @@ namespace DailyGifts
 
         private void OnEnable()
         {
-            _closeButton.onClick.AddListener(_presenter.ClosePanel);
+            foreach (var button in _closeButton)
+            {
+                button.onClick.AddListener(_presenter.ClosePanel);
+            }
         }
 
         private void OnDisable()
         {
-            _closeButton.onClick.RemoveListener(_presenter.ClosePanel);
+            foreach (var button in _closeButton)
+            {
+                button.onClick.RemoveListener(_presenter.ClosePanel);
+            }
         }
 
         private void ShowLastDay()
